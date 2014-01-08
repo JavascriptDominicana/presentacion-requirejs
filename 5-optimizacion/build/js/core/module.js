@@ -1,0 +1,1 @@
+define([],function(){return{load:function(t){require([t],function(e){typeof e=="function"&&e()})}}});

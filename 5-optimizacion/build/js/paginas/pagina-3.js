@@ -1,0 +1,1 @@
+define([],function(){console.log("boring page 3")});

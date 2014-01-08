@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>RequireJS - config</title>
+
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-theme.css" />
+
+	<script src="js/config.js"></script>
+	<script data-main="main.js" src="libs/requirejs/requirejs.min.js"></script>
+</head>
+<body>
+	<div id="wrapper" class="container" style="display: none;">
+		<h1>jQuery + Bootstrap Tabs</h1>
+
+		<div class="tabs">
+			<ul class="nav nav-tabs">
+				<li class="active"><a href="#pagina-1" data-toggle="tab">Pagina 1</a></li>
+				<li><a href="#pagina-2" data-toggle="tab">Pagina 2</a></li>
+				<li><a href="#pagina-3" data-toggle="tab">Pagina 3</a></li>
+			</ul>
+
+			<div class="tab-content">
+				<div id="pagina-1" class="tab-pane active">
+					<h1>Pagina 1</h1>
+				</div>
+
+				<div id="pagina-2" class="tab-pane">
+					<h1>Pagina 2</h1>
+
+					<div class="alert alert-warning">
+						Clone me like one of your french girls!
+					</div>
+
+					<a class="add btn btn-danger" href="#">Clonar</a>
+				</div>
+
+				<div id="pagina-3" class="tab-pane">
+					<h1>Pagina 3</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
